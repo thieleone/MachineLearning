@@ -56,7 +56,7 @@ def main(k):
 	loadDataset('zip.test',testSet)
 	print 'trainingSet: '+repr(len(trainingSet))
 	print 'testSet: '+repr(len(testSet))
-	for x in range(len(testSet)):
+	for x in range(len(testSet)/50):
 	#for x in range(len(testSet)/400):
 	#alternativ kann man mit einer kleineren Menge an Testobjekten testen
 	#da 7290*2006 Distanzberechnungen sehr viel Zeit benoetigen
